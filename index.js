@@ -41,13 +41,60 @@
 // console.log(true, '||', false, '=', true || false)
 // console.log(false, '||', false, '=', false || false)
 
-let string = "";
-let number = 12;
-let userName = "Brad";
-let bool = false;
-let object = null;
-let resultRemainder = number % 5; //2
+// let string = "";
+// let number = 12;
+// let numberSTR = "12";
+// let userName = "Brad";
+// let bool = false;
+// let object = null;
+// let resultRemainder = number % 5; //2
 
-let result = string && number;
-console.log(string && number);
-console.log(result);
+// let result = string && number;
+// console.log(string && number);
+// console.log(result);
+
+// logic
+
+// console.log(!string);
+
+// console.log(object == userName);
+
+// USE ONLY=== AND !==
+
+// const condition = "null";
+
+// if (true) {
+
+//   console.log('cabinet');
+
+// } else {
+//   console.log("sign up");
+// }
+// console.log("main text");
+
+// const userAge = 24;
+// const AGE_ADULT =21
+// if (userAge >= 18) {
+//   console.log("yes");
+// }else{
+//     console.log('no')
+//   }
+
+// let number = 45;
+// if (number % 2 === 0) {
+//   console.log("even");
+// } else {
+//   console.log("odd");
+// }
+
+// [6...18)
+
+const userAge = 12;
+const minAge = 6;
+const maxAge = 18;
+
+if ((userAge >= minAge) && (userAge < maxAge)) {
+  console.log("pupil");
+} else {
+  console.log("not pupil");
+}
